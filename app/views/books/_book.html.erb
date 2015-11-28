@@ -1,0 +1,14 @@
+<tr id='book-<%= book.id %>'>
+  <td><%= book.title %></td>
+  <td><%= book.pages %></td>
+  <td>
+    <% if book.approved %>
+      <i class="fa fa-check book-approved"></i>
+    <% else %>
+      <i class="fa fa-times book-not-approved"></i>
+    <% end %>
+  </td>
+  <td><%= link_to 'Show', book %></td>
+  <td><%= link_to 'Edit', edit_book_path(book) %></td>
+  <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+</tr>

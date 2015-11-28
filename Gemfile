@@ -7,8 +7,9 @@ gem 'sprockets-rails', github: "rails/sprockets-rails"
 gem 'actioncable', github: "rails/actioncable"
 gem 'turbolinks', github: "rails/turbolinks"
 gem 'puma'
+gem 'sass-rails'
 gem 'bootstrap-sass'
-gem 'font-awesome-rails'
+gem 'font-awesome-sass'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
