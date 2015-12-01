@@ -1,8 +1,8 @@
-.book-approved {
+.book-approved-true {
   color: green;
 }
 
-.book-not-approved {
+.book-approved-false {
   color: red;
 }
 

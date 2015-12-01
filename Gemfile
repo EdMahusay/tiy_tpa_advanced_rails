@@ -11,6 +11,8 @@ gem 'sass-rails'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
+gem 'react-rails', '~> 1.5.0'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
