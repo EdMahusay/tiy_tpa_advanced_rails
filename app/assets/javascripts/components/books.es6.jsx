@@ -32,17 +32,3 @@ class Books extends React.Component {
     );
   }
 }
-
-$(document).on("page:change", () => {
-  let books = document.getElementById('books');
-  if (books)
-  {
-    books = JSON.parse(books.dataset.reactProps);
-
-    ReactDOM.render(
-      <Books books={books}/>,
-      document.getElementById('books')
-    );
-  }
-});
-
